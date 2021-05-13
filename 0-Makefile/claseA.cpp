@@ -4,9 +4,12 @@
 using std::cout;
 using std::endl;
 
-ClaseA::ClaseA(){
-    cout<<"Constructor clase A"<<endl;
+ClaseA::ClaseA()
+{
+    cout << "Constructor clase A" << endl;
 }
-void ClaseA::imprimir(){
-    cout<<"Metodo imprimir de la clase A"<<endl;
+
+void ClaseA::imprimir()
+{
+    cout << "Métod imprimir de la clase A " << endl;
 }

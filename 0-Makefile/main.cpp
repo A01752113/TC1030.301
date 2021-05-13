@@ -1,11 +1,12 @@
-#include "ClaseA.h"
+#include "claseA.h"
 #include "claseB.h"
 #include <iostream>
 
 using std::cout;
 using std::endl;
 
-int main(void){
+int main(void)
+{
     ClaseA obj1;
     ClaseB obj2;
 
@@ -13,5 +14,4 @@ int main(void){
     obj2.imprimir();
 
     return 0;
-
 }
